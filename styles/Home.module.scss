@@ -1,0 +1,89 @@
+$primary-color: blueviolet;
+
+.container {
+  // min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // height: 100vh;
+}
+
+.main {
+  padding: 5rem 0;
+  max-width: 800px;
+}
+
+.title {
+  // margin-top: 100px;
+  // padding: 10px;
+  margin: 0;
+  // line-height: 1.15;
+  font-size: 3em;
+  text-align: center;
+}
+
+.posts {
+  list-style: none;
+  padding: 0;
+  margin: 5em 0;
+
+  li {
+    margin-bottom: 3em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  p {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.postsContent {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 43px;
+}
+
+.postsDate {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 33px;
+  font-style: normal;
+}
+
+.formContent {
+  width: 100%;
+  font-size: 1.4em;
+  padding: 0.8em;
+  font-family: "SOURCE SANS PRO";
+  // min-height: 6em;
+  background-origin: 2px solid #939191;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 1em;
+}
+
+.formButton {
+  background: #4948a7;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  padding: 0.7em 1em;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  cursor: pointer;
+  font-size: large;
+}
